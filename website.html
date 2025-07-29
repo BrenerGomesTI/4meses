@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Para Minha Letícia!</title>
+    <!-- Inclui Tailwind CSS para estilização rápida e responsiva -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Estilos personalizados para o site */
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #f0f4f8; /* Fundo suave e claro */
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: #334155; /* Cor de texto padrão */
+        }
+        .container {
+            background-color: #ffffff; /* Fundo branco puro para o conteúdo */
+            border-radius: 20px; /* Cantos arredondados */
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.1); /* Sombra mais pronunciada */
+            padding: 40px;
+            max-width: 750px; /* Largura máxima um pouco maior */
+            width: 100%;
+            text-align: center;
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px; /* Espaçamento entre as seções */
+        }
+        .header h1 {
+            font-size: 3.2rem; /* Título maior */
+            font-weight: 700;
+            color: #1e3a8a; /* Azul marinho para o título */
+            margin-bottom: 10px;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.05);
+        }
+        .header p {
+            font-size: 1.3rem; /* Subtítulo */
+            color: #64748b; /* Cinza suave */
+            font-style: italic;
+            margin-bottom: 20px;
+        }
+        .card {
+            background-color: #f8fafc; /* Fundo de card mais claro */
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.08); /* Sombra suave para cards */
+            text-align: left; /* Alinha o texto da mensagem à esquerda */
+        }
+        .card p {
+            margin-bottom: 15px; /* Espaçamento entre os parágrafos da mensagem */
+            line-height: 1.7;
+            color: #475569; /* Cor de texto para o corpo */
+        }
+        .card p:last-child {
+            margin-bottom: 0;
+            text-align: right; /* Alinha o nome do Brener à direita */
+            font-weight: bold;
+            color: #1e3a8a; /* Cor do nome */
+        }
+        .section-heading {
+            font-size: 2.2rem; /* Títulos de seção */
+            font-weight: 700;
+            color: #1e3a8a; /* Cor do título da seção */
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .anniversary-image {
+            width: 100%;
+            max-width: 450px; /* Largura máxima da imagem */
+            height: auto;
+            border-radius: 15px;
+            margin: 20px auto; /* Centraliza a imagem e adiciona margem */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+            object-fit: cover; /* Garante que a imagem preencha o espaço sem distorcer */
+            transition: transform 0.3s ease; /* Transição suave ao passar o mouse */
+        }
+        .anniversary-image:hover {
+            transform: scale(1.02); /* Leve zoom ao passar o mouse */
+        }
+        .spotify-player-container {
+            width: 100%;
+            max-width: 600px; /* Largura máxima para o player do Spotify */
+            margin-left: auto;
+            margin-right: auto;
+            border-radius: 15px; /* Cantos arredondados para o container do player */
+            overflow: hidden; /* Garante que o border-radius se aplique ao iframe */
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* Sombra para o player */
+            height: 152px; /* Altura fixa para o embed do Spotify */
+        }
+        .spotify-player-container iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+        .footer {
+            margin-top: 40px;
+            font-size: 0.9rem;
+            color: #64748b;
+            padding-top: 20px;
+            border-top: 1px solid #e2e8f0; /* Linha divisória suave */
+            width: 100%;
+            max-width: 750px;
+            text-align: center;
+        }
+
+        /* Responsividade para telas menores */
+        @media (max-width: 768px) {
+            .container {
+                padding: 25px;
+            }
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            .header p {
+                font-size: 1.1rem;
+            }
+            .card {
+                font-size: 1rem;
+                padding: 20px;
+            }
+            .section-heading {
+                font-size: 1.8rem;
+            }
+            .anniversary-image, .spotify-player-container {
+                max-width: 100%; /* Ajusta a largura em telas menores */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h1>4 Meses de Nós!</h1>
+            <p>Um pequeno presente para a pessoa mais especial.</p>
+        </header>
+
+        <section class="card">
+            <p>
+                Letícia,
+            </p>
+            <p>
+                Há 4 meses, no dia 29 de março de 2025, começou algo que mudou tudo pra mim.
+            </p>
+            <p>
+                Desde então, cada dia ao seu lado é um capítulo novo, com sorrisos inesperados, abraços que aquecem a alma e silêncios que dizem tudo.
+            </p>
+            <p>
+                Te conhecer foi o melhor acaso do meu destino, e te amar é a certeza mais bonita que eu carrego no peito.
+            </p>
+            <p>
+                Que venham muitos outros meses, anos e histórias juntos.
+            </p>
+            <p>
+                Com amor,<br>Brener 💙
+            </p>
+        </section>
+
+        <!-- Seção da foto -->
+        <section>
+            <h2 class="section-heading">Nossa Memória Favorita</h2>
+            <!-- Substitua 'https://placehold.co/600x400/8B5CF6/FFFFFF?text=Sua+Foto+Aqui' pelo URL da sua foto -->
+            <!-- Ou, se a foto estiver na mesma pasta, use 'src="sua_foto.jpg"' -->
+            <img src="https://scontent.fgyn9-1.fna.fbcdn.net/v/t39.30808-6/525846484_24201700052825520_4043545081193570472_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEPrTv-qQV1FUFvJv9fdClo9sqnNuqsUlX2yqc26qxSVXbZWvoIfRT3iaJqt82DOzgE7bd9IjfO07Yy2qjeGyrK&_nc_ohc=PT6jGYkM1AIQ7kNvwGBYq1-&_nc_oc=AdlShIYaJh7tVgmsQkt0yg7wDYE0KGQ3IpHir2X4_VbXICXtk5m8IYs6nRBkI2FvhVs&_nc_zt=23&_nc_ht=scontent.fgyn9-1.fna&_nc_gid=Cf4GNDdPoOTeRncY46uzaQ&oh=00_AfTyueSgE7DIl7QQVvkHBCe1xJMgtYAh47gYTllUW2JhRA&oe=688EFC0B" alt="Foto de vocês dois" class="anniversary-image">
+            <p class="text-sm text-gray-600 mt-2 text-center">Um dos nossos momentos mais felizes!</p>
+        </section>
+
+        <!-- Seção da música do Spotify -->
+        <section>
+            <h2 class="section-heading">Nossa Música Especial</h2>
+            <div class="spotify-player-container">
+                <!-- SUBSTITUA O CÓDIGO DO 'iframe' ABAIXO COM O LINK DE INCORPORAÇÃO DO SPOTIFY -->
+                <!-- Para obter o link de incorporação: -->
+                <!-- 1. Vá para a música/playlist no Spotify (web player ou app). -->
+                <!-- 2. Clique nos três pontos (...) ao lado da música/playlist. -->
+                <!-- 3. Selecione "Compartilhar" (Share) -> "Incorporar faixa" (Embed track) ou "Incorporar playlist" (Embed playlist). -->
+                <!-- 4. Copie o código HTML completo do iframe e cole-o aqui. -->
+                <!-- Exemplo de iframe do Spotify: -->
+                <!-- <iframe src="https://open.spotify.com/embed/track/3n3Wh3U9QoXv6uA8Cj9R7E?utm_source=generator" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe> -->
+                <iframe data-testid="embed-iframe" style="border-radius:12px" src="https://open.spotify.com/embed/track/6tNQ70jh4OwmPGpYy6R2o9?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
+            </div>
+            <p class="text-sm text-gray-600 mt-2 text-center">Espero que essa música te lembre de mim!</p>
+        </section>
+    </div>
+
+    <footer class="footer">
+        <p>&copy; 2025 Nosso Amor. Criado com Carinho. ❤️</p>
+    </footer>
+</body>
+</html>
